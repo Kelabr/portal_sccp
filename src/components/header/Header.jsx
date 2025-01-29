@@ -28,7 +28,7 @@ export default function Header(){
                                 <SheetTitle>Menu</SheetTitle>
                             </SheetHeader>
                             <ul>
-                                <li><Link href='#'>Home</Link></li>
+                                <li><Link href='/'>Home</Link></li>
                                 <li><Link href='#'>Sobre</Link></li>
                                 <li><Link href='#'>Tutorial</Link></li>
                             </ul>
@@ -36,7 +36,7 @@ export default function Header(){
                     </Sheet>
                 </nav>
                 <nav className=' w-1/3 flex justify-around max-sm:hidden'>
-                    <Link href='#'>Home</Link>
+                    <Link href='/'>Home</Link>
                     <Link href='#'>Sobre</Link>
                     <Link href="#">Tutorias</Link>
                 </nav>

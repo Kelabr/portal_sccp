@@ -5,10 +5,10 @@ import Mural from "../mural/Mural"
 export default function Tutoriais(){
     return(
         
-            <div className="flex justify-center w-max-[1200px] flex-col">
+            <div className="flex justify-center w-max-[1200px] flex-col sm:flex-row ">
                     <div className=" w-full max-w-[1200px]">
-                            <Link href='#' className="" >
-                                <Card className='h-[130px] max-w-[350px]'>
+                            <Link href='./izeus' className="" >
+                                <Card className='h-[130px] max-w-[350px] sm:hover:-translate-y-3 sm:transition-transform sm:duration-300'>
                                     <CardHeader>
                                         <CardTitle className='text-2xl'>Izeus</CardTitle>
                                         <CardDescription className='text-base'>Manual referente ao Sistema de Ponto Izeus</CardDescription>
@@ -20,7 +20,7 @@ export default function Tutoriais(){
                                 <Card className='h-[130px] max-w-[350px] mt-5  '>
                                     <CardHeader>
                                         <CardTitle className='text-2xl'>Telefones</CardTitle>
-                                        <CardDescription className='text-base'>Lista de telefones da secretaria da educação</CardDescription>
+                                        <CardDescription className='text-base'>Lista de telefones da Secretaria da Educação</CardDescription>
                                     </CardHeader>
                                 </Card>
                             </Link>
