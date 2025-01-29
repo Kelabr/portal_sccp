@@ -10,8 +10,8 @@ export default function Tutoriais(){
                             <Link href='#' className="" >
                                 <Card className='h-[130px] max-w-[350px]'>
                                     <CardHeader>
-                                        <CardTitle className='text-xl'>Izeus</CardTitle>
-                                        <CardDescription>Manual referente ao Sistema de Ponto Izeus</CardDescription>
+                                        <CardTitle className='text-2xl'>Izeus</CardTitle>
+                                        <CardDescription className='text-base'>Manual referente ao Sistema de Ponto Izeus</CardDescription>
                                     </CardHeader>
                                 </Card>
                             </Link>
@@ -19,8 +19,8 @@ export default function Tutoriais(){
                             <Link href='#'>
                                 <Card className='h-[130px] max-w-[350px] mt-5  '>
                                     <CardHeader>
-                                        <CardTitle className='text-xl'>Telefones</CardTitle>
-                                        <CardDescription>Lista de telefones da secretaria da educação</CardDescription>
+                                        <CardTitle className='text-2xl'>Telefones</CardTitle>
+                                        <CardDescription className='text-base'>Lista de telefones da secretaria da educação</CardDescription>
                                     </CardHeader>
                                 </Card>
                             </Link>
@@ -28,8 +28,8 @@ export default function Tutoriais(){
                             <Link href='#'>
                                 <Card className='h-[130px] max-w-[350px] mt-5'>
                                     <CardHeader>
-                                        <CardTitle className='text-xl'>Relatório Mensal</CardTitle>
-                                        <CardDescription>Prenchimento de Cargas dos servidores e hora extra</CardDescription>
+                                        <CardTitle className='text-2xl'>Relatório Mensal</CardTitle>
+                                        <CardDescription  className='text-base'>Prenchimento de Cargas dos servidores e hora extra</CardDescription>
                                     </CardHeader>
                                 </Card>
                             </Link>
