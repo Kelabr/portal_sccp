@@ -10,16 +10,16 @@ export default function Tutoriais(){
                             <Link href='#' className="" >
                                 <Card className='h-[130px] max-w-[350px]'>
                                     <CardHeader>
-                                        <CardTitle>Izeus</CardTitle>
+                                        <CardTitle className='text-lg'>Izeus</CardTitle>
                                         <CardDescription>Manual referente ao Sistema de Ponto Izeus</CardDescription>
                                     </CardHeader>
                                 </Card>
                             </Link>
 
                             <Link href='#'>
-                                <Card className='h-[130px] max-w-[350px] mt-5'>
+                                <Card className='h-[130px] max-w-[350px] mt-5  '>
                                     <CardHeader>
-                                        <CardTitle>Telefones</CardTitle>
+                                        <CardTitle className='text-lg'>Telefones</CardTitle>
                                         <CardDescription>Lista de telefones da secretaria da educação</CardDescription>
                                     </CardHeader>
                                 </Card>
@@ -28,7 +28,7 @@ export default function Tutoriais(){
                             <Link href='#'>
                                 <Card className='h-[130px] max-w-[350px] mt-5'>
                                     <CardHeader>
-                                        <CardTitle>Relatório Mensal</CardTitle>
+                                        <CardTitle className='text-lg'>Relatório Mensal</CardTitle>
                                         <CardDescription>Prenchimento de Cargas dos servidores e hora extra</CardDescription>
                                     </CardHeader>
                                 </Card>
