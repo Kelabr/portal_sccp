@@ -11,7 +11,7 @@ export default function Cadastro(){
                     </div>
                     <div className="mt-3 mb-8 italic text-red-600"><p>Importante: Faixa de horário só é cadastrada para professor</p></div>
                     <div>
-                        <p>O obejetivo desse documento é ensinar ao leitor a criar faixas de horários no sistema de ponto Izeus, atualmente utilizado na Secretaria Municipal de Educação do município de Cubatão.</p>
+                        <p>O obejetivo dessa página é ensinar ao leitor a criar faixas de horário no sistema de ponto Izeus, atualmente utilizado na Secretaria Municipal de Educação do município de Cubatão.</p>
                     </div>
                     <div className="mt-8 ">
                         <p className="text-xl font-medium">Conhecimentos necessários:</p>
@@ -38,7 +38,7 @@ export default function Cadastro(){
                     
                     <div className="mt-12 mb-8 ">
                         <ul className="">
-                           <li className="">Essa será a tela que você mais irá vizualizar quando estiver lidando com o ponto digital, para criar uma faixa de horário você deve clicar na aba <strong>"Horário"</strong> em seguida cliar na aba <strong>"Lançamento de Horário de Plantão Extra Visualmente"</strong>. assim que finalizar esse passo provavelmente você vizualizará uma tela como a de baixo.</li>
+                           <li className="">Essa será a tela que você mais irá vizualizar quando estiver lidando com o ponto digital. Para criar uma faixa de horário você deve clicar na aba <strong>"Horário"</strong> e em seguida cliar na aba <strong>"Lançamento de Horário de Plantão Extra Visualmente"</strong>. assim que finalizar esses passos provavelmente você vizualizará uma tela como a a baixo.</li>
                         </ul>
                     </div>
 
@@ -68,7 +68,7 @@ export default function Cadastro(){
 
                     <div className="mt-12 mb-8 ">
                         <ul className="">
-                           <li className="">Após isso preencha os campos <strong>"Local"</strong>, <strong>"Faixa"</strong> e <strong>"Verba de horas normais"</strong> com os informações que se alinham com o horário cadastrado e clique em <strong>"Adicionar Faixa"</strong> </li>
+                           <li className="">Após isso preencha os campos <strong>"Local"</strong>, <strong>"Faixa"</strong> e <strong>"Verba de horas normais"</strong> com os informações que se alinham com a atividade do professor no dia e horário escolhidos. para finaliza clique em <strong>"Adicionar Faixa"</strong> e pronto, a faixa para o professor escolhido está cadastrada. </li>
                         </ul>
                     </div>
 
