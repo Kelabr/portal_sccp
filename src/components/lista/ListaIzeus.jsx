@@ -4,10 +4,10 @@ import {PencilLine} from 'lucide-react'
 
 export default function Lista(){
     return(
-        <div className="flex justify-center w-max-[1200px] flex-col sm:flex-row ">
-        <div className=" w-full max-w-[1200px]">
+        <div className="flex w-max-[1200px] flex-col sm:flex-row ">
+        <div className=" max-w-[1200px] sm:flex sm:flex-wrap">
                 <Link href='./izeus/cadastro' className="" >
-                    <Card className='h-[180px] max-w-[350px]'>
+                    <Card className='h-[180px] max-w-[350px] sm:mr-3 sm:mb-3 sm:mt-4'>
                         <CardHeader>
                             <div className="flex mb-2">
                                 <PencilLine className="mr-3" size={30}></PencilLine>
@@ -18,23 +18,42 @@ export default function Lista(){
                     </Card>
                 </Link>
 
-                <Link href='#'>
-                    <Card className='h-[130px] max-w-[350px] mt-5  '>
+                <Link href='./izeus/cadastro' className="" >
+                    <Card className='h-[180px] max-w-[350px] sm:mr-3 mt-4 sm:mt-4 mb-3 sm:mb-0'>
                         <CardHeader>
-                            <CardTitle className='text-2xl'>Telefones</CardTitle>
-                            <CardDescription className='text-base'>Lista de telefones da Secretaria da Educação</CardDescription>
+                            <div className="flex mb-2">
+                                <PencilLine className="mr-3" size={30}></PencilLine>
+                                <CardTitle className='text-2xl'>Cadastrar Faixa de Horário</CardTitle>
+                            </div>
+                            <CardDescription className='text-base ml-10'>Como efeutar o cadastro da faixas de horário</CardDescription>
                         </CardHeader>
                     </Card>
                 </Link>
 
-                <Link href='#'>
-                    <Card className='h-[130px] max-w-[350px] mt-5'>
+                <Link href='./izeus/cadastro' className="" >
+                    <Card className='h-[180px] max-w-[350px] sm:mr-3 sm:mt-4'>
                         <CardHeader>
-                            <CardTitle className='text-2xl'>Relatório Mensal</CardTitle>
-                            <CardDescription  className='text-base'>Prenchimento de Cargas dos servidores e hora extra</CardDescription>
+                            <div className="flex mb-2">
+                                <PencilLine className="mr-3" size={30}></PencilLine>
+                                <CardTitle className='text-2xl'>Cadastrar Faixa de Horário</CardTitle>
+                            </div>
+                            <CardDescription className='text-base ml-10'>Como efeutar o cadastro da faixas de horário</CardDescription>
                         </CardHeader>
                     </Card>
                 </Link>
+
+                <Link href='./izeus/cadastro' className="" >
+                    <Card className='h-[180px] max-w-[350px] sm:mr-3 mt-4'>
+                        <CardHeader>
+                            <div className="flex mb-2">
+                                <PencilLine className="mr-3" size={30}></PencilLine>
+                                <CardTitle className='text-2xl'>Cadastrar Faixa de Horário</CardTitle>
+                            </div>
+                            <CardDescription className='text-base ml-10'>Como efeutar o cadastro da faixas de horário</CardDescription>
+                        </CardHeader>
+                    </Card>
+                </Link>
+               
         </div>
 </div>
 
