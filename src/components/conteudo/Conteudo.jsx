@@ -1,7 +1,3 @@
-import Link from "next/link"
-import { Card, CardHeader,CardTitle, CardDescription } from "../ui/card"
-import {PencilLine} from 'lucide-react'
-
 export default function Conteudo(){
     return(
         <div className="flex justify-center w-max-[1200px] flex-col sm:flex-row ">
