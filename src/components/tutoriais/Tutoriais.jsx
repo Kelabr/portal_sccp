@@ -17,7 +17,7 @@ export default function Tutoriais(){
                             </Link>
 
                             <Link href='#'>
-                                <Card className='h-[130px] max-w-[350px] mt-5  '>
+                                <Card className='h-[130px] max-w-[350px] mt-5 sm:hover:-translate-y-3 sm:transition-transform sm:duration-300  '>
                                     <CardHeader>
                                         <CardTitle className='text-2xl'>Telefones</CardTitle>
                                         <CardDescription className='text-base'>Lista de telefones da Secretaria da Educação</CardDescription>
@@ -26,7 +26,7 @@ export default function Tutoriais(){
                             </Link>
 
                             <Link href='#'>
-                                <Card className='h-[130px] max-w-[350px] mt-5'>
+                                <Card className='h-[130px] max-w-[350px] mt-5 sm:hover:-translate-y-3 sm:transition-transform sm:duration-300'>
                                     <CardHeader>
                                         <CardTitle className='text-2xl'>Relatório Mensal</CardTitle>
                                         <CardDescription  className='text-base'>Prenchimento de Cargas dos servidores e hora extra</CardDescription>
