@@ -9,12 +9,14 @@ export default function Header(){
     return(
         <header className='p-2 border-b-[1px] sm:border-none flex justify-center fixed top-0 left-0 w-full bg-white shadow-md z-50  '>
             <div className='flex justify-between w-full max-w-[1200px]'>
-                <Image
-                    src='/logo.svg'
-                    width={130}
-                    height={130}
-                    alt='Logo portal Sccp'
-                />
+                <Link href='/'>
+                    <Image
+                        src='/logo.svg'
+                        width={130}
+                        height={130}
+                        alt='Logo portal Sccp'
+                    />
+                </Link>
 
                 <nav className='flex justify-end sm:hidden'>
                     <Sheet>
