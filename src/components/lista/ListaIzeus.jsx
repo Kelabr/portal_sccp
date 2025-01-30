@@ -11,7 +11,7 @@ export default function Lista(){
                         <CardHeader>
                             <div className="flex mb-2">
                                 <PencilLine className="mr-3" size={30}></PencilLine>
-                                <CardTitle className='text-2xl'>Cadastrar Faixa de Horário</CardTitle>
+                                <CardTitle className='text-2xl'>Faixa de Horário</CardTitle>
                             </div>
                             <CardDescription className='text-base ml-10'>Como efeutar o cadastro da faixas de horário</CardDescription>
                         </CardHeader>
@@ -23,9 +23,9 @@ export default function Lista(){
                         <CardHeader>
                             <div className="flex mb-2">
                                 <PencilLine className="mr-3" size={30}></PencilLine>
-                                <CardTitle className='text-2xl'>Cadastrar Faixa de Horário</CardTitle>
+                                <CardTitle className='text-2xl'>Requerimento de Hora Extra</CardTitle>
                             </div>
-                            <CardDescription className='text-base ml-10'>Como efeutar o cadastro da faixas de horário</CardDescription>
+                            <CardDescription className='text-base ml-10'>Como lançar requerimentos de hora extra</CardDescription>
                         </CardHeader>
                     </Card>
                 </Link>
@@ -35,9 +35,21 @@ export default function Lista(){
                         <CardHeader>
                             <div className="flex mb-2">
                                 <PencilLine className="mr-3" size={30}></PencilLine>
-                                <CardTitle className='text-2xl'>Cadastrar Faixa de Horário</CardTitle>
+                                <CardTitle className='text-2xl'>Requerimento de Aula Eventual</CardTitle>
                             </div>
-                            <CardDescription className='text-base ml-10'>Como efeutar o cadastro da faixas de horário</CardDescription>
+                            <CardDescription className='text-base ml-10'>Como lançar requerimentos de aulas eventuais</CardDescription>
+                        </CardHeader>
+                    </Card>
+                </Link>
+
+                <Link href='./izeus/cadastro' className="" >
+                    <Card className='h-[180px] max-w-[350px] sm:mr-3 mt-4 lg:w-[350px]'>
+                        <CardHeader>
+                            <div className="flex mb-2">
+                                <PencilLine className="mr-3" size={30}></PencilLine>
+                                <CardTitle className='text-2xl'>Inserção</CardTitle>
+                            </div>
+                            <CardDescription className='text-base ml-10'>Como efeutar efetuar uam inserção</CardDescription>
                         </CardHeader>
                     </Card>
                 </Link>
@@ -47,9 +59,9 @@ export default function Lista(){
                         <CardHeader>
                             <div className="flex mb-2">
                                 <PencilLine className="mr-3" size={30}></PencilLine>
-                                <CardTitle className='text-2xl'>Cadastrar Faixa de Horário</CardTitle>
+                                <CardTitle className='text-2xl'>Solicitação de Compensação</CardTitle>
                             </div>
-                            <CardDescription className='text-base ml-10'>Como efeutar o cadastro da faixas de horário</CardDescription>
+                            <CardDescription className='text-base ml-10'>Como solicitar uma compensaçaõ de horário</CardDescription>
                         </CardHeader>
                     </Card>
                 </Link>
