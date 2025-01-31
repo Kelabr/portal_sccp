@@ -22,7 +22,7 @@ export default function Cadastro(){
 
                     <div className="mt-12 mb-4 ">
                         <ul className="">
-                           <Link href='#'><li className="">Ao entrar no sistema Izeus você se deparará com uma tela similar a imagem a baixo</li></Link> 
+                           <Link href='#'><li className="">Ao entrar no sistema Izeus você se deparará com uma tela similar a imagem abaixo</li></Link> 
                         </ul>
                     </div>
 
@@ -38,7 +38,7 @@ export default function Cadastro(){
                     
                     <div className="mt-12 mb-8 ">
                         <ul className="">
-                           <li className="">Essa será a tela que você mais irá vizualizar quando estiver lidando com o ponto digital. Para criar uma faixa de horário você deve clicar na aba <strong>"Horário"</strong> e em seguida cliar na aba <strong>"Lançamento de Horário de Plantão Extra Visualmente"</strong>. assim que finalizar esses passos provavelmente você vizualizará uma tela como a a baixo.</li>
+                           <li className="">Essa será a tela que você mais irá visualizar quando estiver lidando com o ponto digital. Para criar uma faixa de horário você deve clicar na aba <strong>"Horário"</strong> e em seguida cliar na aba <strong>"Lançamento de Horário de Plantão Extra Visualmente"</strong>. assim que finalizar esses passos provavelmente você visualizará uma tela como a abaixo.</li>
                         </ul>
                     </div>
 
@@ -53,7 +53,7 @@ export default function Cadastro(){
 
                     <div className="mt-12 mb-8 ">
                         <ul className="">
-                           <li className="">Digite no campo <strong>"Funcionário:"</strong> a matrícula do professor em qustão e seleciona o dia escolhido para cadastrar a faixa</li>
+                           <li className="">Digite no campo <strong>"Funcionário:"</strong> a matrícula do professor em questão e selecione o dia escolhido para cadastrar a faixa.</li>
                         </ul>
                     </div>
 
@@ -68,7 +68,7 @@ export default function Cadastro(){
 
                     <div className="mt-12 mb-8 ">
                         <ul className="">
-                           <li className="">Após isso preencha os campos <strong>"Local"</strong>, <strong>"Faixa"</strong> e <strong>"Verba de horas normais"</strong> com os informações que se alinham com a atividade do professor no dia e horário escolhidos. para finaliza clique em <strong>"Adicionar Faixa"</strong> e pronto, a faixa para o professor escolhido está cadastrada. </li>
+                           <li className="">Após isso preencha os campos <strong>"Local"</strong>, <strong>"Faixa"</strong> e <strong>"Verba de horas normais"</strong> com os informações que se alinham com a atividade do professor no dia e horário escolhido. para finalizar clique em <strong>"Adicionar Faixa"</strong> e pronto, a faixa está cadastrada. </li>
                         </ul>
                     </div>
 

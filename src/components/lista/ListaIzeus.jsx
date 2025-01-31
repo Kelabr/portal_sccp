@@ -13,7 +13,7 @@ export default function Lista(){
                                 <PencilLine className="mr-3" size={30}></PencilLine>
                                 <CardTitle className='text-2xl'>Faixa de Horário</CardTitle>
                             </div>
-                            <CardDescription className='text-base ml-10'>Como efeutar o cadastro da faixas de horário</CardDescription>
+                            <CardDescription className='text-base ml-10'>Como efetuar o cadastro da faixas de horário</CardDescription>
                         </CardHeader>
                     </Card>
                 </Link>
@@ -62,6 +62,18 @@ export default function Lista(){
                                 <CardTitle className='text-2xl'>Solicitação de Compensação</CardTitle>
                             </div>
                             <CardDescription className='text-base ml-10'>Como solicitar uma compensação de horário</CardDescription>
+                        </CardHeader>
+                    </Card>
+                </Link>
+
+                <Link href='./izeus/acesso' className="" >
+                    <Card className='h-[180px] max-w-[350px] sm:mr-3 mt-4 sm:hover:-translate-y-3 sm:transition-transform sm:duration-300'>
+                        <CardHeader>
+                            <div className="flex mb-2">
+                                <PencilLine className="mr-3" size={30}></PencilLine>
+                                <CardTitle className='text-2xl'>Acesso ao Sistema Izeus</CardTitle>
+                            </div>
+                            <CardDescription className='text-base ml-10'>Como acessar o sistema izeus</CardDescription>
                         </CardHeader>
                     </Card>
                 </Link>
