@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function Eventual(){
     return(
         <div className="pt-28 px-3 flex flex-col items-center">   
- <div className="flex justify-center w-max-[1200px] flex-col sm:flex-row ">
+            <div className="flex justify-center w-max-[1200px] flex-col sm:flex-row ">
                 <div className=" w-full max-w-[1200px]">
                     <div>
                         <h1 className="mb-3 text-3xl font-medium">Requerimento de Horas Extra / Eventual</h1>

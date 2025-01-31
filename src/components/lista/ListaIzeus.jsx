@@ -30,7 +30,7 @@ export default function Lista(){
                     </Card>
                 </Link>
 
-                <Link href='./izeus/cadastro' className="" >
+                <Link href='./izeus/insercao' className="" >
                     <Card className='h-[180px] max-w-[350px] sm:mr-3 mt-4 lg:w-[350px] sm:hover:-translate-y-3 sm:transition-transform sm:duration-300'>
                         <CardHeader>
                             <div className="flex mb-2">
