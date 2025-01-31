@@ -16,7 +16,7 @@ export default function Cadastro(){
                     <div className="mt-8 ">
                         <p className="text-xl font-medium">Conhecimentos necessários:</p>
                         <ul className="list-disc pl-6">
-                           <Link href='#'><li className="italic text-colorcubatao underline">Acesso ao sistema Izeus</li></Link> 
+                           <Link href='./acesso'><li className="italic text-colorcubatao underline">Acesso ao sistema Izeus</li></Link> 
                         </ul>
                     </div>
 
