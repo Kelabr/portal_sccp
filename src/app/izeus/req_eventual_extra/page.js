@@ -8,9 +8,9 @@ export default function Eventual(){
  <div className="flex justify-center w-max-[1200px] flex-col sm:flex-row ">
                 <div className=" w-full max-w-[1200px]">
                     <div>
-                        <h1 className="mb-3 text-3xl font-medium">Requerimento de Horas Extra</h1>
+                        <h1 className="mb-3 text-3xl font-medium">Requerimento de Horas Extra / Eventual</h1>
                     </div>
-
+                    <div className="mt-3 mb-8 italic text-red-600"><p>Importante: Aula eventual só é dada a professores e hora extra para cargos administrativos</p></div>
                     <div>
                         <p>O obejetivo dessa página é ensinar ao leitor a criar requerimentos referentes a horas extras.</p>
                     </div>
@@ -39,7 +39,7 @@ export default function Eventual(){
                     
                     <div className="mt-12 mb-8 ">
                         <ul className="">
-                           <li className="">Primeiramente você deve clicar na opção <strong>"Frenquencia"</strong> na aba superior motrada n aimagem a cima. O sistema pode demorar auns segundo para carregar</li>
+                           <li className="">Primeiramente você deve clicar na opção <strong>"Frenquencia"</strong> na aba superior motrada n aimagem a cima. O sistema pode demorar alguns segundo para carregar</li>
                         </ul>
                     </div>
 
@@ -99,7 +99,7 @@ export default function Eventual(){
 
                     <div className="mt-12 mb-8 ">
                         <ul className="">
-                           <li className="">Clicke em <strong>"Substiuição Eventual"</strong></li>
+                           <li className="">Clicke em <strong>"Substiuição Eventual"</strong> se o objetio for cadastrar aulas eventuais ou <strong>Liberação de Horas Extras</strong> se o objetivo for cadastrar horas extras</li>
                         </ul>
                     </div>
 
@@ -114,7 +114,7 @@ export default function Eventual(){
 
                     <div className="mt-12 mb-8 ">
                         <ul className="">
-                           <li className="">Preencha o Horário de começo da aula eventual <strong>pelo menos com um minuto de apos a ultima batida</strong></li>
+                           <li className="">Preencha o Horário de começo da aula eventual ou hora extra <strong>pelo menos com um minuto de apos a ultima batida</strong></li>
                         </ul>
                     </div>
 
@@ -130,7 +130,7 @@ export default function Eventual(){
 
                     <div className="mt-12 mb-8 ">
                         <ul className="">
-                           <li className="">Clique no botão com o simbolo <strong>"+</strong> e preencha o segundo Horário da aula eventual</li>
+                           <li className="">Clique no botão com o simbolo <strong>"+"</strong> e preencha o segundo Horário da aula eventual ou hora extra</li>
                         </ul>
                     </div>
 
@@ -145,7 +145,7 @@ export default function Eventual(){
 
                     <div className="mt-12 mb-8 ">
                         <ul className="">
-                           <li className="">Escreva no campo <strong>Justificativa</strong> e escreva o motivo da aula eventual</li>
+                           <li className="">Escreva no campo <strong>Justificativa</strong> e escreva o motivo da aula eventual ou hora extra</li>
                         </ul>
                     </div>
 
